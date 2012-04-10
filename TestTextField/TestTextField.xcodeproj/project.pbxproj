@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A8406091533272600767BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8406081533272600767BEC /* UIKit.framework */; };
+		4A84060B1533272600767BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A84060A1533272600767BEC /* Foundation.framework */; };
+		4A84060D1533272600767BEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A84060C1533272600767BEC /* CoreGraphics.framework */; };
+		4A8406131533272600767BEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A8406111533272600767BEC /* InfoPlist.strings */; };
+		4A8406151533272600767BEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8406141533272600767BEC /* main.m */; };
+		4A8406191533272600767BEC /* TestTextFieldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8406181533272600767BEC /* TestTextFieldAppDelegate.m */; };
+		4A84061C1533272600767BEC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A84061A1533272600767BEC /* MainWindow.xib */; };
+		4A84061F1533272600767BEC /* TestTextFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A84061E1533272600767BEC /* TestTextFieldViewController.m */; };
+		4A8406221533272600767BEC /* TestTextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A8406201533272600767BEC /* TestTextFieldViewController.xib */; };
+		4A84062A1533272600767BEC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8406291533272600767BEC /* SenTestingKit.framework */; };
+		4A84062B1533272600767BEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8406081533272600767BEC /* UIKit.framework */; };
+		4A84062C1533272600767BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A84060A1533272600767BEC /* Foundation.framework */; };
+		4A84062D1533272600767BEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A84060C1533272600767BEC /* CoreGraphics.framework */; };
+		4A8406351533272600767BEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A8406331533272600767BEC /* InfoPlist.strings */; };
+		4A8406371533272600767BEC /* TestTextFieldTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4A8406361533272600767BEC /* TestTextFieldTests.h */; };
+		4A8406391533272600767BEC /* TestTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8406381533272600767BEC /* TestTextFieldTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A84062E1533272600767BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A8405FB1533272600767BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A8406031533272600767BEC;
+			remoteInfo = TestTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A8406041533272600767BEC /* TestTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8406081533272600767BEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A84060A1533272600767BEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A84060C1533272600767BEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A8406101533272600767BEC /* TestTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTextField-Info.plist"; sourceTree = "<group>"; };
+		4A8406121533272600767BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A8406141533272600767BEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A8406161533272600767BEC /* TestTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTextField-Prefix.pch"; sourceTree = "<group>"; };
+		4A8406171533272600767BEC /* TestTextFieldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextFieldAppDelegate.h; sourceTree = "<group>"; };
+		4A8406181533272600767BEC /* TestTextFieldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldAppDelegate.m; sourceTree = "<group>"; };
+		4A84061B1533272600767BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4A84061D1533272600767BEC /* TestTextFieldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextFieldViewController.h; sourceTree = "<group>"; };
+		4A84061E1533272600767BEC /* TestTextFieldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldViewController.m; sourceTree = "<group>"; };
+		4A8406211533272600767BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestTextFieldViewController.xib; sourceTree = "<group>"; };
+		4A8406281533272600767BEC /* TestTextFieldTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTextFieldTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8406291533272600767BEC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A8406321533272600767BEC /* TestTextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTextFieldTests-Info.plist"; sourceTree = "<group>"; };
+		4A8406341533272600767BEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A8406361533272600767BEC /* TestTextFieldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTextFieldTests.h; sourceTree = "<group>"; };
+		4A8406381533272600767BEC /* TestTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTextFieldTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A8406011533272600767BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8406091533272600767BEC /* UIKit.framework in Frameworks */,
+				4A84060B1533272600767BEC /* Foundation.framework in Frameworks */,
+				4A84060D1533272600767BEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8406241533272600767BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A84062A1533272600767BEC /* SenTestingKit.framework in Frameworks */,
+				4A84062B1533272600767BEC /* UIKit.framework in Frameworks */,
+				4A84062C1533272600767BEC /* Foundation.framework in Frameworks */,
+				4A84062D1533272600767BEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A8405F91533272600767BEC = {
+			isa = PBXGroup;
+			children = (
+				4A84060E1533272600767BEC /* TestTextField */,
+				4A8406301533272600767BEC /* TestTextFieldTests */,
+				4A8406071533272600767BEC /* Frameworks */,
+				4A8406051533272600767BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A8406051533272600767BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A8406041533272600767BEC /* TestTextField.app */,
+				4A8406281533272600767BEC /* TestTextFieldTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A8406071533272600767BEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A8406081533272600767BEC /* UIKit.framework */,
+				4A84060A1533272600767BEC /* Foundation.framework */,
+				4A84060C1533272600767BEC /* CoreGraphics.framework */,
+				4A8406291533272600767BEC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A84060E1533272600767BEC /* TestTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4A8406171533272600767BEC /* TestTextFieldAppDelegate.h */,
+				4A8406181533272600767BEC /* TestTextFieldAppDelegate.m */,
+				4A84061A1533272600767BEC /* MainWindow.xib */,
+				4A84061D1533272600767BEC /* TestTextFieldViewController.h */,
+				4A84061E1533272600767BEC /* TestTextFieldViewController.m */,
+				4A8406201533272600767BEC /* TestTextFieldViewController.xib */,
+				4A84060F1533272600767BEC /* Supporting Files */,
+			);
+			path = TestTextField;
+			sourceTree = "<group>";
+		};
+		4A84060F1533272600767BEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A8406101533272600767BEC /* TestTextField-Info.plist */,
+				4A8406111533272600767BEC /* InfoPlist.strings */,
+				4A8406141533272600767BEC /* main.m */,
+				4A8406161533272600767BEC /* TestTextField-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A8406301533272600767BEC /* TestTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A8406361533272600767BEC /* TestTextFieldTests.h */,
+				4A8406381533272600767BEC /* TestTextFieldTests.m */,
+				4A8406311533272600767BEC /* Supporting Files */,
+			);
+			path = TestTextFieldTests;
+			sourceTree = "<group>";
+		};
+		4A8406311533272600767BEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A8406321533272600767BEC /* TestTextFieldTests-Info.plist */,
+				4A8406331533272600767BEC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A8406031533272600767BEC /* TestTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A84063C1533272600767BEC /* Build configuration list for PBXNativeTarget "TestTextField" */;
+			buildPhases = (
+				4A8406001533272600767BEC /* Sources */,
+				4A8406011533272600767BEC /* Frameworks */,
+				4A8406021533272600767BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTextField;
+			productName = TestTextField;
+			productReference = 4A8406041533272600767BEC /* TestTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A8406271533272600767BEC /* TestTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A84063F1533272600767BEC /* Build configuration list for PBXNativeTarget "TestTextFieldTests" */;
+			buildPhases = (
+				4A8406231533272600767BEC /* Sources */,
+				4A8406241533272600767BEC /* Frameworks */,
+				4A8406251533272600767BEC /* Resources */,
+				4A8406261533272600767BEC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A84062F1533272600767BEC /* PBXTargetDependency */,
+			);
+			name = TestTextFieldTests;
+			productName = TestTextFieldTests;
+			productReference = 4A8406281533272600767BEC /* TestTextFieldTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A8405FB1533272600767BEC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4A8405FE1533272600767BEC /* Build configuration list for PBXProject "TestTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A8405F91533272600767BEC;
+			productRefGroup = 4A8406051533272600767BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A8406031533272600767BEC /* TestTextField */,
+				4A8406271533272600767BEC /* TestTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A8406021533272600767BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8406131533272600767BEC /* InfoPlist.strings in Resources */,
+				4A84061C1533272600767BEC /* MainWindow.xib in Resources */,
+				4A8406221533272600767BEC /* TestTextFieldViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8406251533272600767BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8406351533272600767BEC /* InfoPlist.strings in Resources */,
+				4A8406371533272600767BEC /* TestTextFieldTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A8406261533272600767BEC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A8406001533272600767BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8406151533272600767BEC /* main.m in Sources */,
+				4A8406191533272600767BEC /* TestTextFieldAppDelegate.m in Sources */,
+				4A84061F1533272600767BEC /* TestTextFieldViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8406231533272600767BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A8406391533272600767BEC /* TestTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A84062F1533272600767BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A8406031533272600767BEC /* TestTextField */;
+			targetProxy = 4A84062E1533272600767BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A8406111533272600767BEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A8406121533272600767BEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A84061A1533272600767BEC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A84061B1533272600767BEC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4A8406201533272600767BEC /* TestTextFieldViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A8406211533272600767BEC /* en */,
+			);
+			name = TestTextFieldViewController.xib;
+			sourceTree = "<group>";
+		};
+		4A8406331533272600767BEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A8406341533272600767BEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A84063A1533272600767BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A84063B1533272600767BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A84063D1533272600767BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTextField/TestTextField-Prefix.pch";
+				INFOPLIST_FILE = "TestTextField/TestTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A84063E1533272600767BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTextField/TestTextField-Prefix.pch";
+				INFOPLIST_FILE = "TestTextField/TestTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A8406401533272600767BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestTextField.app/TestTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTextField/TestTextField-Prefix.pch";
+				INFOPLIST_FILE = "TestTextFieldTests/TestTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4A8406411533272600767BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestTextField.app/TestTextField";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTextField/TestTextField-Prefix.pch";
+				INFOPLIST_FILE = "TestTextFieldTests/TestTextFieldTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A8405FE1533272600767BEC /* Build configuration list for PBXProject "TestTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A84063A1533272600767BEC /* Debug */,
+				4A84063B1533272600767BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A84063C1533272600767BEC /* Build configuration list for PBXNativeTarget "TestTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A84063D1533272600767BEC /* Debug */,
+				4A84063E1533272600767BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A84063F1533272600767BEC /* Build configuration list for PBXNativeTarget "TestTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A8406401533272600767BEC /* Debug */,
+				4A8406411533272600767BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A8405FB1533272600767BEC /* Project object */;
+}
