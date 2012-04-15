@@ -13,10 +13,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A7C64291534028100544BEF"
-               BuildableName = "CustomViewControll.app"
-               BlueprintName = "CustomViewControll"
-               ReferencedContainer = "container:CustomViewControll.xcodeproj">
+               BlueprintIdentifier = "4A7C6458153403B000544BEF"
+               BuildableName = "CustomViewController.app"
+               BlueprintName = "CustomViewController"
+               ReferencedContainer = "container:CustomViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -38,10 +38,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A7C64291534028100544BEF"
-            BuildableName = "CustomViewControll.app"
-            BlueprintName = "CustomViewControll"
-            ReferencedContainer = "container:CustomViewControll.xcodeproj">
+            BlueprintIdentifier = "4A7C6458153403B000544BEF"
+            BuildableName = "CustomViewController.app"
+            BlueprintName = "CustomViewController"
+            ReferencedContainer = "container:CustomViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A7C64291534028100544BEF"
-            BuildableName = "CustomViewControll.app"
-            BlueprintName = "CustomViewControll"
-            ReferencedContainer = "container:CustomViewControll.xcodeproj">
+            BlueprintIdentifier = "4A7C6458153403B000544BEF"
+            BuildableName = "CustomViewController.app"
+            BlueprintName = "CustomViewController"
+            ReferencedContainer = "container:CustomViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CustomViewControll.xcscheme</key>
+		<key>CustomViewController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4A7C64291534028100544BEF</key>
+		<key>4A7C6458153403B000544BEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
