@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ACF6B2E153EED6D0070C575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF6B2D153EED6D0070C575 /* UIKit.framework */; };
+		4ACF6B30153EED6D0070C575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF6B2F153EED6D0070C575 /* Foundation.framework */; };
+		4ACF6B32153EED6D0070C575 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF6B31153EED6D0070C575 /* CoreGraphics.framework */; };
+		4ACF6B38153EED6D0070C575 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF6B36153EED6D0070C575 /* InfoPlist.strings */; };
+		4ACF6B3A153EED6D0070C575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B39153EED6D0070C575 /* main.m */; };
+		4ACF6B3E153EED6D0070C575 /* HelloButterflyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B3D153EED6D0070C575 /* HelloButterflyAppDelegate.m */; };
+		4ACF6B41153EED6E0070C575 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF6B3F153EED6D0070C575 /* MainWindow.xib */; };
+		4ACF6B44153EED6E0070C575 /* HelloButterflyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6B43153EED6E0070C575 /* HelloButterflyViewController.m */; };
+		4ACF6B47153EED6E0070C575 /* HelloButterflyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF6B45153EED6E0070C575 /* HelloButterflyViewController.xib */; };
+		4ACF6B4E153EEE7D0070C575 /* BFlyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF6B4D153EEE7D0070C575 /* BFlyCircle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4ACF6B29153EED6D0070C575 /* HelloButterfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloButterfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACF6B2D153EED6D0070C575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4ACF6B2F153EED6D0070C575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4ACF6B31153EED6D0070C575 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4ACF6B35153EED6D0070C575 /* HelloButterfly-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloButterfly-Info.plist"; sourceTree = "<group>"; };
+		4ACF6B37153EED6D0070C575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4ACF6B39153EED6D0070C575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ACF6B3B153EED6D0070C575 /* HelloButterfly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloButterfly-Prefix.pch"; sourceTree = "<group>"; };
+		4ACF6B3C153EED6D0070C575 /* HelloButterflyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloButterflyAppDelegate.h; sourceTree = "<group>"; };
+		4ACF6B3D153EED6D0070C575 /* HelloButterflyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloButterflyAppDelegate.m; sourceTree = "<group>"; };
+		4ACF6B40153EED6E0070C575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4ACF6B42153EED6E0070C575 /* HelloButterflyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloButterflyViewController.h; sourceTree = "<group>"; };
+		4ACF6B43153EED6E0070C575 /* HelloButterflyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloButterflyViewController.m; sourceTree = "<group>"; };
+		4ACF6B46153EED6E0070C575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloButterflyViewController.xib; sourceTree = "<group>"; };
+		4ACF6B4D153EEE7D0070C575 /* BFlyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BFlyCircle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACF6B26153EED6D0070C575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF6B2E153EED6D0070C575 /* UIKit.framework in Frameworks */,
+				4ACF6B30153EED6D0070C575 /* Foundation.framework in Frameworks */,
+				4ACF6B32153EED6D0070C575 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ACF6B1E153EED6D0070C575 = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B4D153EEE7D0070C575 /* BFlyCircle.png */,
+				4ACF6B33153EED6D0070C575 /* HelloButterfly */,
+				4ACF6B2C153EED6D0070C575 /* Frameworks */,
+				4ACF6B2A153EED6D0070C575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ACF6B2A153EED6D0070C575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B29153EED6D0070C575 /* HelloButterfly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ACF6B2C153EED6D0070C575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B2D153EED6D0070C575 /* UIKit.framework */,
+				4ACF6B2F153EED6D0070C575 /* Foundation.framework */,
+				4ACF6B31153EED6D0070C575 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ACF6B33153EED6D0070C575 /* HelloButterfly */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B3C153EED6D0070C575 /* HelloButterflyAppDelegate.h */,
+				4ACF6B3D153EED6D0070C575 /* HelloButterflyAppDelegate.m */,
+				4ACF6B3F153EED6D0070C575 /* MainWindow.xib */,
+				4ACF6B42153EED6E0070C575 /* HelloButterflyViewController.h */,
+				4ACF6B43153EED6E0070C575 /* HelloButterflyViewController.m */,
+				4ACF6B45153EED6E0070C575 /* HelloButterflyViewController.xib */,
+				4ACF6B34153EED6D0070C575 /* Supporting Files */,
+			);
+			path = HelloButterfly;
+			sourceTree = "<group>";
+		};
+		4ACF6B34153EED6D0070C575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6B35153EED6D0070C575 /* HelloButterfly-Info.plist */,
+				4ACF6B36153EED6D0070C575 /* InfoPlist.strings */,
+				4ACF6B39153EED6D0070C575 /* main.m */,
+				4ACF6B3B153EED6D0070C575 /* HelloButterfly-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ACF6B28153EED6D0070C575 /* HelloButterfly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACF6B4A153EED6E0070C575 /* Build configuration list for PBXNativeTarget "HelloButterfly" */;
+			buildPhases = (
+				4ACF6B25153EED6D0070C575 /* Sources */,
+				4ACF6B26153EED6D0070C575 /* Frameworks */,
+				4ACF6B27153EED6D0070C575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloButterfly;
+			productName = HelloButterfly;
+			productReference = 4ACF6B29153EED6D0070C575 /* HelloButterfly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ACF6B20153EED6D0070C575 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4ACF6B23153EED6D0070C575 /* Build configuration list for PBXProject "HelloButterfly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4ACF6B1E153EED6D0070C575;
+			productRefGroup = 4ACF6B2A153EED6D0070C575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ACF6B28153EED6D0070C575 /* HelloButterfly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACF6B27153EED6D0070C575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF6B38153EED6D0070C575 /* InfoPlist.strings in Resources */,
+				4ACF6B41153EED6E0070C575 /* MainWindow.xib in Resources */,
+				4ACF6B47153EED6E0070C575 /* HelloButterflyViewController.xib in Resources */,
+				4ACF6B4E153EEE7D0070C575 /* BFlyCircle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ACF6B25153EED6D0070C575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF6B3A153EED6D0070C575 /* main.m in Sources */,
+				4ACF6B3E153EED6D0070C575 /* HelloButterflyAppDelegate.m in Sources */,
+				4ACF6B44153EED6E0070C575 /* HelloButterflyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ACF6B36153EED6D0070C575 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACF6B37153EED6D0070C575 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4ACF6B3F153EED6D0070C575 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACF6B40153EED6E0070C575 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4ACF6B45153EED6E0070C575 /* HelloButterflyViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACF6B46153EED6E0070C575 /* en */,
+			);
+			name = HelloButterflyViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ACF6B48153EED6E0070C575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ACF6B49153EED6E0070C575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ACF6B4B153EED6E0070C575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloButterfly/HelloButterfly-Prefix.pch";
+				INFOPLIST_FILE = "HelloButterfly/HelloButterfly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4ACF6B4C153EED6E0070C575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloButterfly/HelloButterfly-Prefix.pch";
+				INFOPLIST_FILE = "HelloButterfly/HelloButterfly-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ACF6B23153EED6D0070C575 /* Build configuration list for PBXProject "HelloButterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACF6B48153EED6E0070C575 /* Debug */,
+				4ACF6B49153EED6E0070C575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACF6B4A153EED6E0070C575 /* Build configuration list for PBXNativeTarget "HelloButterfly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACF6B4B153EED6E0070C575 /* Debug */,
+				4ACF6B4C153EED6E0070C575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ACF6B20153EED6D0070C575 /* Project object */;
+}
