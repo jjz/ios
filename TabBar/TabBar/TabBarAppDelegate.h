@@ -2,7 +2,7 @@
 //  TabBarAppDelegate.h
 //  TabBar
 //
-//  Created by MagicStudio on 12-4-15.
+//  Created by MagicStudio on 12-4-20.
 //  Copyright 2012年 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 @class TabBarViewController;
 
-@interface TabBarAppDelegate : NSObject <UIApplicationDelegate>
+@interface TabBarAppDelegate : NSObject <UIApplicationDelegate,UITabBarControllerDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 

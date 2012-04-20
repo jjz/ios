@@ -2,7 +2,7 @@
 //  TabBarAppDelegate.m
 //  TabBar
 //
-//  Created by MagicStudio on 12-4-15.
+//  Created by MagicStudio on 12-4-20.
 //  Copyright 2012年 __MyCompanyName__. All rights reserved.
 //
 
@@ -14,15 +14,60 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-     
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
-    return YES;
+-(void)tabBarController:(UITabBarController *)tabBarController didEndCustomizingViewControllers:(NSArray *)viewControllers changed:(BOOL)changed{
+    NSMutableArray *titles=[NSMutableArray array];
+    for(UIViewController *vc in viewControllers) [titles addObject:vc.title];
+    [[NSUserDefaults  standardUserDefaults] setObject:titles forKey:@"tabOrder"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
 }
+-(void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    NSNumber *tabBumber=[NSNumber numberWithInt:[tabBarController selectedIndex]];
+    [[NSUserDefaults standardUserDefaults] setObject:tabBumber forKey:@"selectedTab"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+-(void)applicationDidFinishLaunching:(UIApplication *)application{
+    NSMutableArray *controllers=[NSMutableArray array];
+    NSArray *titles=[[NSUserDefaults standardUserDefaults] objectForKey:@"tabOrder"];
+    if(!titles){
+        for(int i=0;i<=10;i++){
+            TabBarViewController *tvc=[[TabBarViewController alloc] initWithBrightness:i];
+            UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:tvc];
+            nav.navigationBar.barStyle=UIBarStyleBlackTranslucent;
+            [tvc release];
+            [controllers addObject:nav];
+            [nav release];
+        }
+        
+    }else{
+        for(NSString *theTitle in titles){
+            TabBarViewController *tvc=[[TabBarViewController alloc]initWithBrightness:([theTitle intValue])];
+            UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:tvc];
+            nav.navigationBar.barStyle=UIBarStyleBlackTranslucent;
+            [tvc release];
+            [controllers addObject:nav];
+            [nav release];
+        }
+    }
+    UITabBarController *tabController=[[UITabBarController alloc] init];
+    tabController.viewControllers=controllers;
+    tabController.customizableViewControllers=controllers;
+    tabController.delegate=self;
+    NSNumber *tabNumber=[[NSUserDefaults standardUserDefaults] objectForKey:@"selectedTab"];
+    if(tabNumber)
+        tabController.selectedIndex=[tabNumber intValue];
+   // TabBarViewController *tvc=[[TabBarViewController alloc] init];
+    UIWindow *window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [window addSubview:tabController.view];
+    [window makeKeyAndVisible];
+}
+//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+//{
+//    // Override point for customization after application launch.
+//     
+//    self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
+//    return YES;
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

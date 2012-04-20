@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A7C246B153AB28000FE4C63"
+               BlueprintIdentifier = "4A7C4148154105DD009ED897"
                BuildableName = "TabBar.app"
                BlueprintName = "TabBar"
                ReferencedContainer = "container:TabBar.xcodeproj">
@@ -38,7 +38,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A7C246B153AB28000FE4C63"
+            BlueprintIdentifier = "4A7C4148154105DD009ED897"
             BuildableName = "TabBar.app"
             BlueprintName = "TabBar"
             ReferencedContainer = "container:TabBar.xcodeproj">
@@ -55,7 +55,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4A7C246B153AB28000FE4C63"
+            BlueprintIdentifier = "4A7C4148154105DD009ED897"
             BuildableName = "TabBar.app"
             BlueprintName = "TabBar"
             ReferencedContainer = "container:TabBar.xcodeproj">

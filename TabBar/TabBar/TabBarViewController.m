@@ -2,7 +2,7 @@
 //  TabBarViewController.m
 //  TabBar
 //
-//  Created by MagicStudio on 12-4-15.
+//  Created by MagicStudio on 12-4-20.
 //  Copyright 2012年 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,6 +10,19 @@
 
 @implementation TabBarViewController
 
+@synthesize label;
+-(TabBarViewController *)initWithBrightness:(int)aBrightness{
+    self=[super init];
+    brightness=aBrightness;
+    self.title=[NSString stringWithFormat:@"%d" ,brightness];
+    [self.tabBarItem initWithTitle:self.title image:nil tag:0];
+    return self;
+}
+-(void)loadView{
+    self.view=[[[NSBundle mainBundle] loadNibNamed:@"TabBarViewController" owner:self options:nil] lastObject];
+    //self.view.backgroundColor=[UIColor colorWithWhite:(brightness/10.0f) alpha:1.0f];
+    [label setText:[NSString stringWithFormat:@"%d",brightness]];
+}
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -30,6 +43,8 @@
 
 - (void)viewDidUnload
 {
+    [self setLabel:nil];
+    [self setView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -41,4 +56,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)dealloc {
+    [label release];
+    [super dealloc];
+}
 @end
