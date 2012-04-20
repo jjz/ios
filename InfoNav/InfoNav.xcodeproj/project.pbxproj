@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7C40D91540F4CA009ED897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7C40D81540F4CA009ED897 /* UIKit.framework */; };
+		4A7C40DB1540F4CA009ED897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7C40DA1540F4CA009ED897 /* Foundation.framework */; };
+		4A7C40DD1540F4CA009ED897 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7C40DC1540F4CA009ED897 /* CoreGraphics.framework */; };
+		4A7C40E31540F4CA009ED897 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C40E11540F4CA009ED897 /* InfoPlist.strings */; };
+		4A7C40E51540F4CA009ED897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C40E41540F4CA009ED897 /* main.m */; };
+		4A7C40E91540F4CA009ED897 /* InfoNavAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C40E81540F4CA009ED897 /* InfoNavAppDelegate.m */; };
+		4A7C40EC1540F4CA009ED897 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C40EA1540F4CA009ED897 /* MainWindow.xib */; };
+		4A7C40EF1540F4CA009ED897 /* InfoNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C40EE1540F4CA009ED897 /* InfoNavViewController.m */; };
+		4A7C40F21540F4CA009ED897 /* InfoNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C40F01540F4CA009ED897 /* InfoNavViewController.xib */; };
+		4A7C41001540F5A2009ED897 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C40FE1540F5A2009ED897 /* InfoViewController.m */; };
+		4A7C41011540F5A2009ED897 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7C40FF1540F5A2009ED897 /* InfoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A7C40D41540F4CA009ED897 /* InfoNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7C40D81540F4CA009ED897 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A7C40DA1540F4CA009ED897 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A7C40DC1540F4CA009ED897 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A7C40E01540F4CA009ED897 /* InfoNav-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfoNav-Info.plist"; sourceTree = "<group>"; };
+		4A7C40E21540F4CA009ED897 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A7C40E41540F4CA009ED897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A7C40E61540F4CA009ED897 /* InfoNav-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfoNav-Prefix.pch"; sourceTree = "<group>"; };
+		4A7C40E71540F4CA009ED897 /* InfoNavAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoNavAppDelegate.h; sourceTree = "<group>"; };
+		4A7C40E81540F4CA009ED897 /* InfoNavAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoNavAppDelegate.m; sourceTree = "<group>"; };
+		4A7C40EB1540F4CA009ED897 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4A7C40ED1540F4CA009ED897 /* InfoNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoNavViewController.h; sourceTree = "<group>"; };
+		4A7C40EE1540F4CA009ED897 /* InfoNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoNavViewController.m; sourceTree = "<group>"; };
+		4A7C40F11540F4CA009ED897 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InfoNavViewController.xib; sourceTree = "<group>"; };
+		4A7C40FD1540F5A2009ED897 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InfoViewController.h; path = ../InfoViewController.h; sourceTree = "<group>"; };
+		4A7C40FE1540F5A2009ED897 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = ../InfoViewController.m; sourceTree = "<group>"; };
+		4A7C40FF1540F5A2009ED897 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoViewController.xib; path = ../InfoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7C40D11540F4CA009ED897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7C40D91540F4CA009ED897 /* UIKit.framework in Frameworks */,
+				4A7C40DB1540F4CA009ED897 /* Foundation.framework in Frameworks */,
+				4A7C40DD1540F4CA009ED897 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7C40C91540F4C9009ED897 = {
+			isa = PBXGroup;
+			children = (
+				4A7C40DE1540F4CA009ED897 /* InfoNav */,
+				4A7C40D71540F4CA009ED897 /* Frameworks */,
+				4A7C40D51540F4CA009ED897 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7C40D51540F4CA009ED897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C40D41540F4CA009ED897 /* InfoNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7C40D71540F4CA009ED897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C40D81540F4CA009ED897 /* UIKit.framework */,
+				4A7C40DA1540F4CA009ED897 /* Foundation.framework */,
+				4A7C40DC1540F4CA009ED897 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7C40DE1540F4CA009ED897 /* InfoNav */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C40FD1540F5A2009ED897 /* InfoViewController.h */,
+				4A7C40FE1540F5A2009ED897 /* InfoViewController.m */,
+				4A7C40FF1540F5A2009ED897 /* InfoViewController.xib */,
+				4A7C40E71540F4CA009ED897 /* InfoNavAppDelegate.h */,
+				4A7C40E81540F4CA009ED897 /* InfoNavAppDelegate.m */,
+				4A7C40EA1540F4CA009ED897 /* MainWindow.xib */,
+				4A7C40ED1540F4CA009ED897 /* InfoNavViewController.h */,
+				4A7C40EE1540F4CA009ED897 /* InfoNavViewController.m */,
+				4A7C40F01540F4CA009ED897 /* InfoNavViewController.xib */,
+				4A7C40DF1540F4CA009ED897 /* Supporting Files */,
+			);
+			path = InfoNav;
+			sourceTree = "<group>";
+		};
+		4A7C40DF1540F4CA009ED897 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7C40E01540F4CA009ED897 /* InfoNav-Info.plist */,
+				4A7C40E11540F4CA009ED897 /* InfoPlist.strings */,
+				4A7C40E41540F4CA009ED897 /* main.m */,
+				4A7C40E61540F4CA009ED897 /* InfoNav-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A7C40D31540F4CA009ED897 /* InfoNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7C40F51540F4CA009ED897 /* Build configuration list for PBXNativeTarget "InfoNav" */;
+			buildPhases = (
+				4A7C40D01540F4CA009ED897 /* Sources */,
+				4A7C40D11540F4CA009ED897 /* Frameworks */,
+				4A7C40D21540F4CA009ED897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfoNav;
+			productName = InfoNav;
+			productReference = 4A7C40D41540F4CA009ED897 /* InfoNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7C40CB1540F4C9009ED897 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4A7C40CE1540F4C9009ED897 /* Build configuration list for PBXProject "InfoNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A7C40C91540F4C9009ED897;
+			productRefGroup = 4A7C40D51540F4CA009ED897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7C40D31540F4CA009ED897 /* InfoNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7C40D21540F4CA009ED897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7C40E31540F4CA009ED897 /* InfoPlist.strings in Resources */,
+				4A7C40EC1540F4CA009ED897 /* MainWindow.xib in Resources */,
+				4A7C40F21540F4CA009ED897 /* InfoNavViewController.xib in Resources */,
+				4A7C41011540F5A2009ED897 /* InfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7C40D01540F4CA009ED897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7C40E51540F4CA009ED897 /* main.m in Sources */,
+				4A7C40E91540F4CA009ED897 /* InfoNavAppDelegate.m in Sources */,
+				4A7C40EF1540F4CA009ED897 /* InfoNavViewController.m in Sources */,
+				4A7C41001540F5A2009ED897 /* InfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A7C40E11540F4CA009ED897 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7C40E21540F4CA009ED897 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A7C40EA1540F4CA009ED897 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7C40EB1540F4CA009ED897 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4A7C40F01540F4CA009ED897 /* InfoNavViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7C40F11540F4CA009ED897 /* en */,
+			);
+			name = InfoNavViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A7C40F31540F4CA009ED897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A7C40F41540F4CA009ED897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A7C40F61540F4CA009ED897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoNav/InfoNav-Prefix.pch";
+				INFOPLIST_FILE = "InfoNav/InfoNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A7C40F71540F4CA009ED897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoNav/InfoNav-Prefix.pch";
+				INFOPLIST_FILE = "InfoNav/InfoNav-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7C40CE1540F4C9009ED897 /* Build configuration list for PBXProject "InfoNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7C40F31540F4CA009ED897 /* Debug */,
+				4A7C40F41540F4CA009ED897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7C40F51540F4CA009ED897 /* Build configuration list for PBXNativeTarget "InfoNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7C40F61540F4CA009ED897 /* Debug */,
+				4A7C40F71540F4CA009ED897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7C40CB1540F4C9009ED897 /* Project object */;
+}

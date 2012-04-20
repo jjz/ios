@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ACF6BB8154021B00070C575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF6BB7154021B00070C575 /* UIKit.framework */; };
+		4ACF6BBA154021B00070C575 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF6BB9154021B00070C575 /* Foundation.framework */; };
+		4ACF6BBC154021B00070C575 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACF6BBB154021B00070C575 /* CoreGraphics.framework */; };
+		4ACF6BC2154021B00070C575 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF6BC0154021B00070C575 /* InfoPlist.strings */; };
+		4ACF6BC4154021B00070C575 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6BC3154021B00070C575 /* main.m */; };
+		4ACF6BC8154021B00070C575 /* SixButtonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6BC7154021B00070C575 /* SixButtonAppDelegate.m */; };
+		4ACF6BCB154021B00070C575 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF6BC9154021B00070C575 /* MainWindow.xib */; };
+		4ACF6BCE154021B00070C575 /* SixButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACF6BCD154021B00070C575 /* SixButtonViewController.m */; };
+		4ACF6BD1154021B00070C575 /* SixButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ACF6BCF154021B00070C575 /* SixButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4ACF6BB3154021B00070C575 /* SixButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SixButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACF6BB7154021B00070C575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4ACF6BB9154021B00070C575 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4ACF6BBB154021B00070C575 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4ACF6BBF154021B00070C575 /* SixButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SixButton-Info.plist"; sourceTree = "<group>"; };
+		4ACF6BC1154021B00070C575 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4ACF6BC3154021B00070C575 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ACF6BC5154021B00070C575 /* SixButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SixButton-Prefix.pch"; sourceTree = "<group>"; };
+		4ACF6BC6154021B00070C575 /* SixButtonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixButtonAppDelegate.h; sourceTree = "<group>"; };
+		4ACF6BC7154021B00070C575 /* SixButtonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixButtonAppDelegate.m; sourceTree = "<group>"; };
+		4ACF6BCA154021B00070C575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4ACF6BCC154021B00070C575 /* SixButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixButtonViewController.h; sourceTree = "<group>"; };
+		4ACF6BCD154021B00070C575 /* SixButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixButtonViewController.m; sourceTree = "<group>"; };
+		4ACF6BD0154021B00070C575 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SixButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACF6BB0154021B00070C575 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF6BB8154021B00070C575 /* UIKit.framework in Frameworks */,
+				4ACF6BBA154021B00070C575 /* Foundation.framework in Frameworks */,
+				4ACF6BBC154021B00070C575 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ACF6BA8154021B00070C575 = {
+			isa = PBXGroup;
+			children = (
+				4ACF6BBD154021B00070C575 /* SixButton */,
+				4ACF6BB6154021B00070C575 /* Frameworks */,
+				4ACF6BB4154021B00070C575 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ACF6BB4154021B00070C575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6BB3154021B00070C575 /* SixButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ACF6BB6154021B00070C575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6BB7154021B00070C575 /* UIKit.framework */,
+				4ACF6BB9154021B00070C575 /* Foundation.framework */,
+				4ACF6BBB154021B00070C575 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ACF6BBD154021B00070C575 /* SixButton */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6BC6154021B00070C575 /* SixButtonAppDelegate.h */,
+				4ACF6BC7154021B00070C575 /* SixButtonAppDelegate.m */,
+				4ACF6BC9154021B00070C575 /* MainWindow.xib */,
+				4ACF6BCC154021B00070C575 /* SixButtonViewController.h */,
+				4ACF6BCD154021B00070C575 /* SixButtonViewController.m */,
+				4ACF6BCF154021B00070C575 /* SixButtonViewController.xib */,
+				4ACF6BBE154021B00070C575 /* Supporting Files */,
+			);
+			path = SixButton;
+			sourceTree = "<group>";
+		};
+		4ACF6BBE154021B00070C575 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF6BBF154021B00070C575 /* SixButton-Info.plist */,
+				4ACF6BC0154021B00070C575 /* InfoPlist.strings */,
+				4ACF6BC3154021B00070C575 /* main.m */,
+				4ACF6BC5154021B00070C575 /* SixButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ACF6BB2154021B00070C575 /* SixButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACF6BD4154021B00070C575 /* Build configuration list for PBXNativeTarget "SixButton" */;
+			buildPhases = (
+				4ACF6BAF154021B00070C575 /* Sources */,
+				4ACF6BB0154021B00070C575 /* Frameworks */,
+				4ACF6BB1154021B00070C575 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SixButton;
+			productName = SixButton;
+			productReference = 4ACF6BB3154021B00070C575 /* SixButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ACF6BAA154021B00070C575 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4ACF6BAD154021B00070C575 /* Build configuration list for PBXProject "SixButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4ACF6BA8154021B00070C575;
+			productRefGroup = 4ACF6BB4154021B00070C575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ACF6BB2154021B00070C575 /* SixButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACF6BB1154021B00070C575 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF6BC2154021B00070C575 /* InfoPlist.strings in Resources */,
+				4ACF6BCB154021B00070C575 /* MainWindow.xib in Resources */,
+				4ACF6BD1154021B00070C575 /* SixButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ACF6BAF154021B00070C575 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF6BC4154021B00070C575 /* main.m in Sources */,
+				4ACF6BC8154021B00070C575 /* SixButtonAppDelegate.m in Sources */,
+				4ACF6BCE154021B00070C575 /* SixButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4ACF6BC0154021B00070C575 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACF6BC1154021B00070C575 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4ACF6BC9154021B00070C575 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACF6BCA154021B00070C575 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4ACF6BCF154021B00070C575 /* SixButtonViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ACF6BD0154021B00070C575 /* en */,
+			);
+			name = SixButtonViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ACF6BD2154021B00070C575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ACF6BD3154021B00070C575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ACF6BD5154021B00070C575 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SixButton/SixButton-Prefix.pch";
+				INFOPLIST_FILE = "SixButton/SixButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4ACF6BD6154021B00070C575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SixButton/SixButton-Prefix.pch";
+				INFOPLIST_FILE = "SixButton/SixButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ACF6BAD154021B00070C575 /* Build configuration list for PBXProject "SixButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACF6BD2154021B00070C575 /* Debug */,
+				4ACF6BD3154021B00070C575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACF6BD4154021B00070C575 /* Build configuration list for PBXNativeTarget "SixButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACF6BD5154021B00070C575 /* Debug */,
+				4ACF6BD6154021B00070C575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ACF6BAA154021B00070C575 /* Project object */;
+}
