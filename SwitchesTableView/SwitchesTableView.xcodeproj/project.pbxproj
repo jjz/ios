@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7BCB13156629F5006362D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BCB12156629F5006362D1 /* UIKit.framework */; };
+		BE7BCB15156629F5006362D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BCB14156629F5006362D1 /* Foundation.framework */; };
+		BE7BCB17156629F5006362D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BCB16156629F5006362D1 /* CoreGraphics.framework */; };
+		BE7BCB1D156629F5006362D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7BCB1B156629F5006362D1 /* InfoPlist.strings */; };
+		BE7BCB1F156629F5006362D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7BCB1E156629F5006362D1 /* main.m */; };
+		BE7BCB23156629F5006362D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7BCB22156629F5006362D1 /* AppDelegate.m */; };
+		BE7BCB2B156629F5006362D1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BCB2A156629F5006362D1 /* SenTestingKit.framework */; };
+		BE7BCB2C156629F5006362D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BCB12156629F5006362D1 /* UIKit.framework */; };
+		BE7BCB2D156629F5006362D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7BCB14156629F5006362D1 /* Foundation.framework */; };
+		BE7BCB35156629F5006362D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7BCB33156629F5006362D1 /* InfoPlist.strings */; };
+		BE7BCB38156629F5006362D1 /* SwitchesTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7BCB37156629F5006362D1 /* SwitchesTableViewTests.m */; };
+		BE7BCB5A15663513006362D1 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7BCB5915663513006362D1 /* Cell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7BCB2E156629F5006362D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7BCB05156629F5006362D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7BCB0D156629F5006362D1;
+			remoteInfo = SwitchesTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE7BCB0E156629F5006362D1 /* SwitchesTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchesTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7BCB12156629F5006362D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE7BCB14156629F5006362D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE7BCB16156629F5006362D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE7BCB1A156629F5006362D1 /* SwitchesTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchesTableView-Info.plist"; sourceTree = "<group>"; };
+		BE7BCB1C156629F5006362D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE7BCB1E156629F5006362D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE7BCB20156629F5006362D1 /* SwitchesTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwitchesTableView-Prefix.pch"; sourceTree = "<group>"; };
+		BE7BCB21156629F5006362D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE7BCB22156629F5006362D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE7BCB29156629F5006362D1 /* SwitchesTableViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchesTableViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7BCB2A156629F5006362D1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BE7BCB32156629F5006362D1 /* SwitchesTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwitchesTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		BE7BCB34156629F5006362D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE7BCB36156629F5006362D1 /* SwitchesTableViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchesTableViewTests.h; sourceTree = "<group>"; };
+		BE7BCB37156629F5006362D1 /* SwitchesTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchesTableViewTests.m; sourceTree = "<group>"; };
+		BE7BCB5915663513006362D1 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7BCB0B156629F5006362D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7BCB13156629F5006362D1 /* UIKit.framework in Frameworks */,
+				BE7BCB15156629F5006362D1 /* Foundation.framework in Frameworks */,
+				BE7BCB17156629F5006362D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7BCB25156629F5006362D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7BCB2B156629F5006362D1 /* SenTestingKit.framework in Frameworks */,
+				BE7BCB2C156629F5006362D1 /* UIKit.framework in Frameworks */,
+				BE7BCB2D156629F5006362D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7BCB03156629F5006362D1 = {
+			isa = PBXGroup;
+			children = (
+				BE7BCB18156629F5006362D1 /* SwitchesTableView */,
+				BE7BCB30156629F5006362D1 /* SwitchesTableViewTests */,
+				BE7BCB11156629F5006362D1 /* Frameworks */,
+				BE7BCB0F156629F5006362D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7BCB0F156629F5006362D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BCB0E156629F5006362D1 /* SwitchesTableView.app */,
+				BE7BCB29156629F5006362D1 /* SwitchesTableViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7BCB11156629F5006362D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BCB12156629F5006362D1 /* UIKit.framework */,
+				BE7BCB14156629F5006362D1 /* Foundation.framework */,
+				BE7BCB16156629F5006362D1 /* CoreGraphics.framework */,
+				BE7BCB2A156629F5006362D1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7BCB18156629F5006362D1 /* SwitchesTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BCB21156629F5006362D1 /* AppDelegate.h */,
+				BE7BCB22156629F5006362D1 /* AppDelegate.m */,
+				BE7BCB19156629F5006362D1 /* Supporting Files */,
+				BE7BCB5915663513006362D1 /* Cell.xib */,
+			);
+			path = SwitchesTableView;
+			sourceTree = "<group>";
+		};
+		BE7BCB19156629F5006362D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BCB1A156629F5006362D1 /* SwitchesTableView-Info.plist */,
+				BE7BCB1B156629F5006362D1 /* InfoPlist.strings */,
+				BE7BCB1E156629F5006362D1 /* main.m */,
+				BE7BCB20156629F5006362D1 /* SwitchesTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE7BCB30156629F5006362D1 /* SwitchesTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BCB36156629F5006362D1 /* SwitchesTableViewTests.h */,
+				BE7BCB37156629F5006362D1 /* SwitchesTableViewTests.m */,
+				BE7BCB31156629F5006362D1 /* Supporting Files */,
+			);
+			path = SwitchesTableViewTests;
+			sourceTree = "<group>";
+		};
+		BE7BCB31156629F5006362D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7BCB32156629F5006362D1 /* SwitchesTableViewTests-Info.plist */,
+				BE7BCB33156629F5006362D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7BCB0D156629F5006362D1 /* SwitchesTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7BCB3B156629F5006362D1 /* Build configuration list for PBXNativeTarget "SwitchesTableView" */;
+			buildPhases = (
+				BE7BCB0A156629F5006362D1 /* Sources */,
+				BE7BCB0B156629F5006362D1 /* Frameworks */,
+				BE7BCB0C156629F5006362D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchesTableView;
+			productName = SwitchesTableView;
+			productReference = BE7BCB0E156629F5006362D1 /* SwitchesTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE7BCB28156629F5006362D1 /* SwitchesTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7BCB3E156629F5006362D1 /* Build configuration list for PBXNativeTarget "SwitchesTableViewTests" */;
+			buildPhases = (
+				BE7BCB24156629F5006362D1 /* Sources */,
+				BE7BCB25156629F5006362D1 /* Frameworks */,
+				BE7BCB26156629F5006362D1 /* Resources */,
+				BE7BCB27156629F5006362D1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7BCB2F156629F5006362D1 /* PBXTargetDependency */,
+			);
+			name = SwitchesTableViewTests;
+			productName = SwitchesTableViewTests;
+			productReference = BE7BCB29156629F5006362D1 /* SwitchesTableViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7BCB05156629F5006362D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BE7BCB08156629F5006362D1 /* Build configuration list for PBXProject "SwitchesTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE7BCB03156629F5006362D1;
+			productRefGroup = BE7BCB0F156629F5006362D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7BCB0D156629F5006362D1 /* SwitchesTableView */,
+				BE7BCB28156629F5006362D1 /* SwitchesTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7BCB0C156629F5006362D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7BCB1D156629F5006362D1 /* InfoPlist.strings in Resources */,
+				BE7BCB5A15663513006362D1 /* Cell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7BCB26156629F5006362D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7BCB35156629F5006362D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BE7BCB27156629F5006362D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7BCB0A156629F5006362D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7BCB1F156629F5006362D1 /* main.m in Sources */,
+				BE7BCB23156629F5006362D1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7BCB24156629F5006362D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7BCB38156629F5006362D1 /* SwitchesTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE7BCB2F156629F5006362D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7BCB0D156629F5006362D1 /* SwitchesTableView */;
+			targetProxy = BE7BCB2E156629F5006362D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE7BCB1B156629F5006362D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7BCB1C156629F5006362D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE7BCB33156629F5006362D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7BCB34156629F5006362D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE7BCB39156629F5006362D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE7BCB3A156629F5006362D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE7BCB3C156629F5006362D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchesTableView/SwitchesTableView-Prefix.pch";
+				INFOPLIST_FILE = "SwitchesTableView/SwitchesTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE7BCB3D156629F5006362D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchesTableView/SwitchesTableView-Prefix.pch";
+				INFOPLIST_FILE = "SwitchesTableView/SwitchesTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE7BCB3F156629F5006362D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchesTableView.app/SwitchesTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchesTableView/SwitchesTableView-Prefix.pch";
+				INFOPLIST_FILE = "SwitchesTableViewTests/SwitchesTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BE7BCB40156629F5006362D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwitchesTableView.app/SwitchesTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwitchesTableView/SwitchesTableView-Prefix.pch";
+				INFOPLIST_FILE = "SwitchesTableViewTests/SwitchesTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7BCB08156629F5006362D1 /* Build configuration list for PBXProject "SwitchesTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7BCB39156629F5006362D1 /* Debug */,
+				BE7BCB3A156629F5006362D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7BCB3B156629F5006362D1 /* Build configuration list for PBXNativeTarget "SwitchesTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7BCB3C156629F5006362D1 /* Debug */,
+				BE7BCB3D156629F5006362D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE7BCB3E156629F5006362D1 /* Build configuration list for PBXNativeTarget "SwitchesTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7BCB3F156629F5006362D1 /* Debug */,
+				BE7BCB40156629F5006362D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE7BCB05156629F5006362D1 /* Project object */;
+}
